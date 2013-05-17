@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project version="2">
+  <!-- Output SWF options -->
+  <output>
+    <movie outputType="Application" />
+    <movie input="" />
+    <movie path="swf\ludumdare22.swf" />
+    <movie fps="30" />
+    <movie width="1024" />
+    <movie height="768" />
+    <movie version="10" />
+    <movie minorVersion="1" />
+    <movie platform="Flash Player" />
+    <movie background="#FFFFFF" />
+  </output>
+  <!-- Other classes to be compiled into your SWF -->
+  <classpaths>
+    <class path="src" />
+  </classpaths>
+  <!-- Build options -->
+  <build>
+    <option directives="" />
+    <option flashStrict="True" />
+    <option mainClass="Main" />
+    <option enabledebug="False" />
+    <option additional="" />
+  </build>
+  <!-- haxelib libraries -->
+  <haxelib>
+    <!-- example: <library name="..." /> -->
+  </haxelib>
+  <!-- Class files to compile (other referenced classes will automatically be included) -->
+  <compileTargets>
+    <!-- example: <compile path="..." /> -->
+  </compileTargets>
+  <!-- Assets to embed into the output SWF -->
+  <library>
+    <asset path="gfx\tiles.png" bitmap="True" id="GfxTiles" />
+    <asset path="gfx\04B_03.TTF" id="GameFont" />
+    <asset path="sfx\theme.mp3" id="Music" />
+    <asset path="sfx\land.mp3" id="Land" />
+    <asset path="sfx\explode.mp3" id="Explode" />
+    <asset path="sfx\hit.mp3" id="Hit" />
+    <asset path="sfx\die.mp3" id="Die" />
+    <asset path="sfx\respawn.mp3" id="Respawn" />
+    <asset path="sfx\shadow.mp3" id="Shadow" />
+    <asset path="sfx\pickup.mp3" id="PickUp" />
+    <asset path="sfx\shard.mp3" id="Shard" />
+    <asset path="sfx\fallLand.mp3" id="FallLand" />
+    <asset path="sfx\trigger.mp3" id="Trigger" />
+    <asset path="sfx\bump.mp3" id="Bump" />
+    <asset path="sfx\think.mp3" id="Think" />
+    <asset path="sfx\jump1.mp3" id="Jump1" />
+    <asset path="sfx\jump2.mp3" id="Jump2" />
+    <asset path="sfx\jump3.mp3" id="Jump3" />
+    <asset path="sfx\grab.mp3" id="Grab" />
+  </library>
+  <!-- Paths to exclude from the Project Explorer tree -->
+  <hiddenPaths>
+    <!-- example: <hidden path="..." /> -->
+  </hiddenPaths>
+  <!-- Executed before build -->
+  <preBuildCommand />
+  <!-- Executed after build -->
+  <postBuildCommand alwaysRun="False" />
+  <!-- Other project options -->
+  <options>
+    <option showHiddenPaths="False" />
+    <option testMovie="OpenDocument" />
+    <option testMovieCommand="index.html" />
+  </options>
+  <!-- Plugin storage -->
+  <storage />
+</project>

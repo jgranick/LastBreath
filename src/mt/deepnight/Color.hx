@@ -307,9 +307,9 @@ class Color {
 	
 	public static inline function replaceChannel(bd:flash.display.BitmapData, r:Bool, g:Bool, b:Bool, colInt:Int, ?brightness=1.5) {
 		var pt = new flash.geom.Point(0,0);
-		var r_chan = if (r) extractChannel( bd, r, false, false );
-		var g_chan = if (g) extractChannel( bd, false, g, false );
-		var b_chan = if (b) extractChannel( bd, false, false, b );
+		var r_chan = if (r) extractChannel( bd, r, false, false ) else null;
+		var g_chan = if (g) extractChannel( bd, false, g, false ) else null;
+		var b_chan = if (b) extractChannel( bd, false, false, b ) else null;
 		
 		var diff : flash.display.BitmapData = null;
 		
